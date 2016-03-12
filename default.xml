@@ -13,6 +13,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
            
+  <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />         
+           
   <remote revision="refs/heads/1.0-MM"  
           name="FlareROM"  
           fetch="https://github.com/FlareROM" />             
