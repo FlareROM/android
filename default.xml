@@ -548,4 +548,14 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" /> 
 <!-- END TOOLCHAINS -->   
 
+<!-- c1skt source -->
+  <project path="device/samsung/c1skt" name="fullgreen/cyanogenmod_device_samsung_c1skt" remote="github" />
+  <project path="device/samsung/c1skt-common" name="fullgreen/cyanogenmod_device_samsung_c1skt-common" remote="github" />
+  <project path="kernel/samsung/smdk4412" name="fullgreen/android_kernel_samsung_smdk4412" remote="github" />
+  <project path="packages/apps/SamsungServiceMode" name="cyanogenmod/android_packages_apps_SamsungServiceMode" remote="github" />
+  <project path="hardware/samsung" name="cyanogenmod/android_hardware_samsung" remote="github" />
+  <project path="vendor/samsung" name="fullgreen/proprietary_vendor_samsung" remote="github" />
+  <project path="external/stlport" name="cyanogenmod/android_external_stlport" remote="github" />
+<!-- End c1skt source -->
+
 </manifest>
