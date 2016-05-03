@@ -283,7 +283,7 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/cm" name="FlareROM/android_vendor_cm" />
+  <project path="vendor/cm" name="FlareROM/android_vendor_FlareROM" />
   <project path="vendor/cmsdk" name="FlareROM/cm_platform_sdk" />
 
 <!-- CMSDK SAMPLES -->
