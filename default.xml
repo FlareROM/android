@@ -584,4 +584,13 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" /> 
 <!-- END TOOLCHAINS -->   
 
+<!-- Device Tree // Galaxy S3 only -->
+  <project path="device/samsung/c1skt-common" name="FullGreen/cyanogenmod_device_samsung_c1skt-common" />
+  <project path="kernel/samsung/smdk4412" name="FullGreen/cyanogenmod_kernel_samsung_smdk4412" />
+  <project path="vendor/samsung" name="FullGreen/cyanogenmod_proprietary_vendor_samsung" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  <project path="hardware/samsung" name="FullGreen/cyanogenmod_hardware_samsung" />
+  <project path="device/samsung/c1skt" name="FullGreen/cyanogenmod_device_samsung_c1skt" />
+<!-- Device Tree End // Galaxy S3 only -->
 </manifest>
