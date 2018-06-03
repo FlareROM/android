@@ -13,7 +13,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r26" />
 		   
-  <remote  name="Flareos"
+  <remote  name="FlareOS"
            fetch="https://github.com/FlareROM"
            revision="1.0-O" />
 
