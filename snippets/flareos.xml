@@ -13,7 +13,16 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="art" name="android_art" groups="pdk" remote="FlareOS" />
+  <project path="device/generic/common" name="android_device_generic_common" remote="FlareOS" />
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="FlareOS" />
+  <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" remote="FlareOS" />
+  <project path="device/generic/openthos" name="android_device_generic_openthos" remote="FlareOS" />
+  <project path="external/busybox" name="android_external_busybox" remote="FlareOS" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="FlareOS" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="FlareOS" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="FlareOS" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="FlareOS" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="FlareOS" />
   <project path="packages/apps/AppDrawer" name="android_packages_apps_AppDrawer" remote="FlareOS" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="FlareOS" />
@@ -44,6 +53,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="FlareOS" />
   <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="FlareOS" />
   <project path="packages/overlays/flareos" name="android_packages_overlays_flareos" remote="FlareOS" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="FlareOS" />
   <project path="vendor/flareos" name="android_vendor_flareos" remote="FlareOS" />
 
   <!-- FlareOS additions -->
